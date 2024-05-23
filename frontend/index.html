@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- hero section start -->
+    <header>
+      <nav>
+        <h2 class="logo">Loyd<span>Magic</span></h2>
+        <ul>
+          <li class="navlinks"><a href="#hero" class="active">Home</a></li>
+          <li class="navlinks"><a href="#about">About Me</a></li>
+          <li class="navlinks"><a href="#service">Services</a></li>
+          <li class="navlinks"><a href="#feedback">Feedback</a></li>
+          <li class="navlinks"><a href="#Contact-Me">Contact Me</a></li>
+        </ul>
+        <a href="#" class="btn">Subscribe</a>
+      </nav>
+    </header>
+
+    <div class="hero" id="hero">
+      <div class="content">
+        <h4>Hello my name is</h4>
+        <h1>Loyd <span>Butalid</span></h1>
+        <h3>I'm a Magician</h3>
+        <div class="newslatter">
+          <form>
+            <input
+              type="email"
+              name="email"
+              id="mail"
+              placeholder="Enter Your email"
+            />
+            <input type="submit" name="submit" id="Lets start" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- About section start -->
+    <section class="about" id="about">
+      <div class="main">
+        <img src="img/akoni.jpg" />
+        <div class="about-text">
+          <h2>About Me</h2>
+          <h5>Magician <span>& Comidian</span></h5>
+          <p>
+            I am a close up & stage Magician. I can perform close up magic on
+            street or on any public place. I can also perform stage magic, on
+            any kind of occassion, birthday, party, or just a normal hangout.
+          </p>
+          <button type="button">Let's Talk</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services section start -->
+
+    <div class="Services" id="service">
+      <div class="title">
+        <h2>My Services</h2>
+      </div>
+
+      <div class="box">
+        <div class="card">
+          <i class="fa-solid fa-bars"></i>
+          <h5>Magician</h5>
+          <div class="pra">
+            <p>
+              Every magician should be able to have two type of performance.
+              First slights of hand and misdirection, to be able to perform
+              smooth movement to full the audience. Second is crowd control and
+              talking skills, it can make your speacktator lost focus of the
+              magician hand misdirection.
+            </p>
+
+            <p style="text-align: center">
+              <a class="button" href="#">Read More</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="fa-solid fa-user"></i>
+          <h5>Magician</h5>
+          <div class="pra">
+            <p>
+              Every magician should be able to have two type of performance.
+              First slights of hand and misdirection, to be able to perform
+              smooth movement to full the audience. Second is crowd control and
+              talking skills, it can make your speacktator lost focus of the
+              magician hand misdirection.
+            </p>
+
+            <p style="text-align: center">
+              <a class="button" href="#">Read More</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="fa-regular fa-bell"></i>
+          <h5>Magician</h5>
+          <div class="pra">
+            <p>
+              Every magician should be able to have two type of performance.
+              First slights of hand and misdirection, to be able to perform
+              smooth movement to full the audience. Second is crowd control and
+              talking skills, it can make your speacktator lost focus of the
+              magician hand misdirection.
+            </p>
+
+            <p style="text-align: center">
+              <a class="button" href="#">Read More</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- REVIEWS SECTION -->
+    <section class="feedbacks" id="review">
+      <div class="feedbacks_header">
+        <h1 class="testimonial-heading" style="color: red">Feedbacks</h1>
+      </div>
+      <div class="rate-me">
+        <h4>Rate Me!</h4>
+      </div>
+      <div id="testimonials">
+        <!-- Reviews Container -->
+
+        <div class="reviews_container">
+          <div class="post">
+            <div class="text">Thanks for rating me!</div>
+            <!-- <div class="edit">EDIT</div> -->
+          </div>
+          <div class="reviews">
+            <input type="radio" name="rate" id="rate-5" />
+            <label for="rate-5" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-4" />
+            <label for="rate-4" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-3" />
+            <label for="rate-3" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-2" />
+            <label for="rate-2" class="fas fa-star"></label>
+            <input type="radio" name="rate" id="rate-1" />
+            <label for="rate-1" class="fas fa-star"></label>
+            <form id="commentForm" action="#">
+              <header></header>
+              <div class="name">
+                <textarea cols="10" placeholder="Enter Your Name.."></textarea>
+              </div>
+              <div class="textarea">
+                <textarea
+                  cols="30"
+                  placeholder="Describe your experience.."
+                ></textarea>
+              </div>
+              <div class="btn">
+                <button type="submit">Post</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- End Of Reviews Container -->
+        <!-- Testimonials heading -->
+        <h3 style="padding: 5rem">Comments</h3>
+        <div class="box_comments">
+          <!-- Testimonials box container -->
+          <div class="testimonial-box-container">
+            <!-- Testimonial boxes will be dynamically generated here -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END REVIEWS SECTION -->
+
+    <!-- Contact Me -->
+    <div class="Contact-Me" id="Contact-Me">
+      <p>Let Me Perform You A Wonderful Magic Show.</p>
+      <a class="button-two" href="#">Hire Me</a>
+    </div>
+
+    <!-- footer start  -->
+    <footer>
+      <p>Loyd Butalid</p>
+      <p>
+        For more magicshow - please click on link below to subscribe to my
+        channel:
+      </p>
+      <div class="social">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+      <p class="end">CopyRight By Loyd Butalid</p>
+    </footer>
+  </body>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const navLinks = document.querySelectorAll(".navlinks a");
+
+      navLinks.forEach((link) => {
+        link.addEventListener("click", function () {
+          // Remove "active" class from all links
+          navLinks.forEach((link) => link.classList.remove("active"));
+
+          // Add "active" class to the clicked link
+          this.classList.add("active");
+        });
+      });
+    });
+
+    // listner for reviews
+    document.addEventListener("DOMContentLoaded", function () {
+      const btn = document.querySelector("button");
+      const post = document.querySelector(".post");
+      const reviews = document.querySelector(".reviews");
+
+      const commentForm = document.getElementById("commentForm");
+      const commentTextarea = document.querySelector(".textarea textarea");
+      const nameArea = document.querySelector(".name textarea");
+
+      const starLabels = document.querySelectorAll(".reviews label");
+
+      let selectedStar = 0;
+
+      starLabels.forEach((label) => {
+        label.addEventListener("click", () => {
+          selectedStar = parseInt(label.getAttribute("for").split("-")[1]);
+        });
+      });
+
+      commentForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const comment = commentTextarea.value;
+        const name = nameArea.value;
+        console.log("Star Rating:", selectedStar);
+        console.log("Comment:", comment);
+        console.log("Name:", name);
+
+        const formData = {
+          rating: selectedStar,
+          comment: comment,
+          name: name,
+        };
+
+        fetch("/data", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        })
+          .then((response) => response.text())
+          .then((data) => {
+            console.log(data);
+            alert("Review submitted successfully!");
+
+            window.location.reload();
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+            alert("An error occurred. Please try again later.");
+          });
+
+        reviews.style.display = "none";
+        post.style.display = "block";
+      });
+    });
+
+    window.onload = async () => {
+      try {
+        const response = await fetch("/data");
+        const data = await response.json();
+
+        if (response.ok) {
+          const testimonialBoxContainer = document.querySelector(
+            ".testimonial-box-container",
+          );
+
+          data.forEach((item) => {
+            const testimonialBox = document.createElement("div");
+            testimonialBox.classList.add("testimonial-box");
+
+            const boxTop = document.createElement("div");
+            boxTop.classList.add("box-top");
+
+            // Profile Section
+            const profileDiv = document.createElement("div");
+            profileDiv.classList.add("profile");
+
+            const profileImgDiv = document.createElement("div");
+            profileImgDiv.classList.add("profile-img");
+
+            const profileImg = document.createElement("img");
+            profileImg.src = "img/akoni.jpg"; // Assuming each data item has a profile image URL property
+            profileImgDiv.appendChild(profileImg);
+
+            const nameUserDiv = document.createElement("div");
+            nameUserDiv.classList.add("name-user");
+
+            const nameStrong = document.createElement("strong");
+            nameStrong.textContent = item.name; // Assuming each data item has a name property
+            nameUserDiv.appendChild(nameStrong);
+
+            profileDiv.appendChild(profileImgDiv);
+            profileDiv.appendChild(nameUserDiv);
+
+            // Reviews Section
+            const reviewsDiv = document.createElement("div");
+            reviewsDiv.classList.add("reviews");
+
+            for (let i = 0; i < item.rating; i++) {
+              const starIcon = document.createElement("i");
+              starIcon.classList.add("fas", "fa-star");
+              reviewsDiv.appendChild(starIcon);
+            }
+
+            boxTop.appendChild(profileDiv);
+            boxTop.appendChild(reviewsDiv);
+            testimonialBox.appendChild(boxTop);
+
+            // Comments Section
+            const clientCommentDiv = document.createElement("div");
+            clientCommentDiv.classList.add("client-comment");
+
+            const commentP = document.createElement("p");
+            commentP.textContent = item.comment; // Assuming each data item has a comment property
+            clientCommentDiv.appendChild(commentP);
+
+            testimonialBox.appendChild(clientCommentDiv);
+
+            testimonialBoxContainer.appendChild(testimonialBox);
+          });
+        } else {
+          console.error("Error fetching data:", data);
+          alert("Error fetching data. Please try again later.");
+        }
+      } catch (error) {
+        console.error("Error fetching data:", error);
+        alert("Error fetching data. Please try again later.");
+      }
+    };
+  </script>
+</html>
